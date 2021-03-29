@@ -1,0 +1,20 @@
+:root{
+  --color-background: #121214;
+  --color-text: #a8a8b3;
+}
+body{
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+
+.resposta{
+  float: left !important;
+  margin-right: 10px;
+}
+.img{
+  border-radius: 30% !important;
+  overflow: hidden;
+}
